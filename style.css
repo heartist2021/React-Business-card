@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color:#F5F5F5;
+    font-family: 'Inter', sans-serif;
+}
+main {
+    width: 550px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typographi */
+h1 {
+    font-weight: 700;
+    font-size: 1.5625rem;
+    line-height: 1.875em;
+    text-align: center;
+    color: #2B283A;
+    margin-top: 1.3125em;
+}
+
+h2 {
+    font-weight: 700;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 0.9375em;
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-size: 0.64rem;
+    font-weight: 400;
+    font-size: 0.64rem;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+
+
+/* Links */
+.small{
+    font-weight: 400;
+    font-size: 0.64rem;
+    line-height: 150%;
+    text-align: center;
+    color: #2B283A;
+    margin-top: 0.7em;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.small:hover,
+.small:focus{
+    color: #2B283A;
+}
+
+/* Sections */
+.container{
+    background-color: #F5F5F5;
+    width: 317px;
+    margin: 2.75em auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info-img {
+    width: 317px;
+    height: 317px;
+    border-radius: 0.625em 0.625em 0px 0px;
+}
+#info-img {
+    border-radius: 70%;
+}
+
+.btn-links{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 0.9375em;
+}
+
+.btn {
+    width: 115px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5625em 0.8125em 0.5625em 0.6875em; 
+    gap: 0.5em;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 0.375em;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-mail{
+  background: #FFFFFF;
+  color: #374151;
+  border: 1px solid #D1D5DB;
+}
+
+.btn:hover,
+.btn:focus{
+    box-shadow: 0 0 0.625em #F3BF99;
+}
+
+.btn-linkedin{
+    background: #FFFFFF;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+}
+
+.btn-img-mail,
+.btn-img-linkdedin{
+    width: 16px;
+    height: 16px;
+}
+
+.btn-img-linkdedin:hover{
+    color: black;
+}
+
+.about{
+    margin-top: 1.5em;
+    padding: 0px 2.1875em;
+}
+
+.interests{
+    padding: 0.625em 2.1875em 1.5em 2.1875em;
+}
+
+footer {
+    display: flex;
+    gap: 1.25em;
+    justify-content: center;
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    padding: 1.1875em 0;
+    margin-top: 1.25em;
+}
+
+.icon:hover,
+.icon:focus{
+    transition-duration: 0.4s;
+    box-shadow: 0 0 0.625em #F3BF99;
+}
+
+
+
+
+
